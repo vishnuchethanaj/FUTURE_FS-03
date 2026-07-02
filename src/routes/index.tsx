@@ -10,6 +10,7 @@ import { Programs } from "@/components/site/Programs";
 import { AICoach } from "@/components/site/AICoach";
 import { Calculators } from "@/components/site/Calculators";
 import { Membership } from "@/components/site/Membership";
+import { Schedule } from "@/components/site/Schedule";
 import { Trainers } from "@/components/site/Trainers";
 import { Testimonials } from "@/components/site/Testimonials";
 import { Contact } from "@/components/site/Contact";
@@ -32,6 +33,7 @@ function Index() {
         <About />
         <Programs />
         <AICoach />
+        <Schedule />
         <Calculators />
         <Membership />
         <Trainers />
