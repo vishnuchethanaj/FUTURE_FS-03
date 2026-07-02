@@ -37,11 +37,15 @@ export function Preloader() {
               initial={{ scale: 0.7, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-              className="text-3xl font-extrabold tracking-tight"
+              className="text-center"
               style={{ fontFamily: "var(--font-display)" }}
             >
-              <span className="text-gradient">EF</span>
-              <span className="text-foreground">C</span>
+              <span className="block text-3xl font-extrabold tracking-tight text-gradient">
+                ELEVATE
+              </span>
+              <span className="block mt-2 text-sm font-semibold uppercase tracking-[0.35em] text-muted-foreground">
+                FITNESS CLUB
+              </span>
             </motion.div>
           </div>
           <div className="mt-10 h-px w-56 overflow-hidden bg-border">
