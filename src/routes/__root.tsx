@@ -100,7 +100,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap",
       },
-      { rel: "icon", href: "/favicon.svg?v=2", type: "image/svg+xml" },
+      {
+        rel: "icon",
+        href: "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0%25'%20stop-color='%231fb6ff'/%3E%3Cstop%20offset='100%25'%20stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle%20cx='256'%20cy='256'%20r='240'%20fill='url(%23g)'/%3E%3Cg%20transform='rotate(-35%20256%20256)'%20fill='none'%20stroke='%230b1f3a'%20stroke-width='14'%20stroke-linecap='round'%20stroke-linejoin='round'%3E%3Cline%20x1='180'%20y1='256'%20x2='332'%20y2='256'/%3E%3Crect%20x='145'%20y='220'%20width='20'%20height='72'%20rx='6'/%3E%3Crect%20x='165'%20y='208'%20width='28'%20height='96'%20rx='8'/%3E%3Crect%20x='193'%20y='196'%20width='36'%20height='120'%20rx='10'/%3E%3Crect%20x='283'%20y='196'%20width='36'%20height='120'%20rx='10'/%3E%3Crect%20x='319'%20y='208'%20width='28'%20height='96'%20rx='8'/%3E%3Crect%20x='347'%20y='220'%20width='20'%20height='72'%20rx='6'/%3E%3C/g%3E%3C/svg%3E",
+        type: "image/svg+xml",
+      },
+      {
+        rel: "shortcut icon",
+        href: "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0%25'%20stop-color='%231fb6ff'/%3E%3Cstop%20offset='100%25'%20stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle%20cx='256'%20cy='256'%20r='240'%20fill='url(%23g)'/%3E%3Cg%20transform='rotate(-35%20256%20256)'%20fill='none'%20stroke='%230b1f3a'%20stroke-width='14'%20stroke-linecap='round'%20stroke-linejoin='round'%3E%3Cline%20x1='180'%20y1='256'%20x2='332'%20y2='256'/%3E%3Crect%20x='145'%20y='220'%20width='20'%20height='72'%20rx='6'/%3E%3Crect%20x='165'%20y='208'%20width='28'%20height='96'%20rx='8'/%3E%3Crect%20x='193'%20y='196'%20width='36'%20height='120'%20rx='10'/%3E%3Crect%20x='283'%20y='196'%20width='36'%20height='120'%20rx='10'/%3E%3Crect%20x='319'%20y='208'%20width='28'%20height='96'%20rx='8'/%3E%3Crect%20x='347'%20y='220'%20width='20'%20height='72'%20rx='6'/%3E%3C/g%3E%3C/svg%3E",
+        type: "image/svg+xml",
+      },
     ],
   }),
   shellComponent: RootShell,
