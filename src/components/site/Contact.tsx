@@ -4,9 +4,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Phone, Mail, MapPin, Clock, Instagram, Facebook, Check } from "lucide-react";
 
 const info = [
-  { icon: MapPin, label: "Visit", value: "24 Skyline Ave, Downtown" },
-  { icon: Phone, label: "Call", value: "+1 (555) 018-2200" },
-  { icon: Mail, label: "Email", value: "hello@elevatefit.club" },
+  { icon: MapPin, label: "Visit", value: "2nd Floor, 24 Skyline Ave, Madhapur" },
+  { icon: Phone, label: "Call", value: "+91 9876543210" },
+  { icon: Mail, label: "Email", value: "elevatefitclub@gmail.com" },
   { icon: Clock, label: "Hours", value: "Mon–Sun · 5AM – 11PM" },
 ];
 
